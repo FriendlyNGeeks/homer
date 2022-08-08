@@ -15,4 +15,4 @@ if [[ "${INIT_ASSETS}" == "1" ]] && [[ ! -f "/www/assets/config.yml" ]]; then
 fi
 
 echo "Starting webserver"
-darkhttpd -D -f /darkhttpd.conf
+lighttpd -D -f /lighttpd.conf
